@@ -1,0 +1,23 @@
+$gray: #f1f1f1;
+$black: #000;
+$white: #fff;
+
+//run: npm run compile:sass
+.basic-form {
+  &-index {
+    background: $gray;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px black;
+  }
+  &-title {
+    background: $black;
+    color: $white;
+    padding: 1rem;
+  }
+  &-body {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1rem;
+  }
+}
